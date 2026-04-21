@@ -26,7 +26,7 @@ How to Run
     Ensure you have Python installed (3.6 or higher).
     
     Clone this repository:
-    git clone https://github.com/VirgilsPath/Course_Projects/tree/main/OOP/Virtual_Pet
+    git clone https://github.com/VirgilsPath/Course_Projects/tree/main/OOP/Virtual%20Pet
 
     Run the script:
     python3 virtual_pet.py
