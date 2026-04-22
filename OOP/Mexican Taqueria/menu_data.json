@@ -1,0 +1,19 @@
+{
+    "tacos": {
+        "Al Pastor": 3.50,
+        "Carne Asada": 4.00,
+        "Pollo": 3.00
+    },
+    "drinks": {
+        "Horchata": 2.50,
+        "Mexican Coke": 3.00
+    },
+    "alcohol": {
+        "Beer": 3.00,
+        "Margarita": 6.00
+    },
+    "desserts": {
+        "Churros": 5.00,
+        "Flan": 4.50
+    }
+}
