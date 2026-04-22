@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "amount": 64.12,
+        "type": "withdrawal",
+        "category": "Utilities"
+    },
+    {
+        "id": 2,
+        "amount": 79.91,
+        "type": "withdrawal",
+        "category": "Utilities"
+    },
+    {
+        "id": 3,
+        "amount": 136.9,
+        "type": "withdrawal",
+        "category": "Gas"
+    },
+    {
+        "id": 4,
+        "amount": 95.7,
+        "type": "withdrawal",
+        "category": "Dining"
+    },
+    {
+        "id": 5,
+        "amount": 41.54,
+        "type": "withdrawal",
+        "category": "Dining"
+    },
+    {
+        "id": 6,
+        "amount": 135.76,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 7,
+        "amount": 85.73,
+        "type": "withdrawal",
+        "category": "Coffee"
+    },
+    {
+        "id": 8,
+        "amount": 16.18,
+        "type": "withdrawal",
+        "category": "Dining"
+    },
+    {
+        "id": 9,
+        "amount": 71.28,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 10,
+        "amount": 91.55,
+        "type": "withdrawal",
+        "category": "Grocery"
+    },
+    {
+        "id": 11,
+        "amount": 139.27,
+        "type": "withdrawal",
+        "category": "Gas"
+    },
+    {
+        "id": 12,
+        "amount": 21.54,
+        "type": "withdrawal",
+        "category": "Coffee"
+    },
+    {
+        "id": 13,
+        "amount": 51.83,
+        "type": "withdrawal",
+        "category": "Coffee"
+    },
+    {
+        "id": 14,
+        "amount": 2016.19,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 15,
+        "amount": 32.73,
+        "type": "withdrawal",
+        "category": "Dining"
+    },
+    {
+        "id": 16,
+        "amount": 2140.2,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 17,
+        "amount": 43.69,
+        "type": "withdrawal",
+        "category": "Gas"
+    },
+    {
+        "id": 18,
+        "amount": 1200.0,
+        "type": "withdrawal",
+        "category": "Rent"
+    },
+    {
+        "id": 19,
+        "amount": 26.68,
+        "type": "withdrawal",
+        "category": "Utilities"
+    },
+    {
+        "id": 20,
+        "amount": 37.97,
+        "type": "withdrawal",
+        "category": "Gas"
+    },
+    {
+        "id": 21,
+        "amount": 3066.91,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 22,
+        "amount": 12.13,
+        "type": "withdrawal",
+        "category": "Grocery"
+    },
+    {
+        "id": 23,
+        "amount": 116.12,
+        "type": "withdrawal",
+        "category": "Utilities"
+    },
+    {
+        "id": 24,
+        "amount": 91.91,
+        "type": "withdrawal",
+        "category": "Dining"
+    },
+    {
+        "id": 25,
+        "amount": 2585.69,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 26,
+        "amount": 1200.0,
+        "type": "withdrawal",
+        "category": "Rent"
+    },
+    {
+        "id": 27,
+        "amount": 46.44,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 28,
+        "amount": 2847.14,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 29,
+        "amount": 23.36,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 30,
+        "amount": 1200.0,
+        "type": "withdrawal",
+        "category": "Rent"
+    },
+    {
+        "id": 31,
+        "amount": 2665.78,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 32,
+        "amount": 1200.0,
+        "type": "withdrawal",
+        "category": "Rent"
+    },
+    {
+        "id": 33,
+        "amount": 139.26,
+        "type": "withdrawal",
+        "category": "Coffee"
+    },
+    {
+        "id": 34,
+        "amount": 144.54,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 35,
+        "amount": 2805.92,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 36,
+        "amount": 145.04,
+        "type": "withdrawal",
+        "category": "Utilities"
+    },
+    {
+        "id": 37,
+        "amount": 1200.0,
+        "type": "withdrawal",
+        "category": "Rent"
+    },
+    {
+        "id": 38,
+        "amount": 69.77,
+        "type": "withdrawal",
+        "category": "Grocery"
+    },
+    {
+        "id": 39,
+        "amount": 141.63,
+        "type": "withdrawal",
+        "category": "Gas"
+    },
+    {
+        "id": 40,
+        "amount": 74.33,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 41,
+        "amount": 87.49,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 42,
+        "amount": 39.65,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 43,
+        "amount": 2854.5,
+        "type": "deposit",
+        "category": "Salary"
+    },
+    {
+        "id": 44,
+        "amount": 149.4,
+        "type": "withdrawal",
+        "category": "Grocery"
+    },
+    {
+        "id": 45,
+        "amount": 64.56,
+        "type": "withdrawal",
+        "category": "Subscription"
+    },
+    {
+        "id": 46,
+        "amount": 21.12,
+        "type": "withdrawal",
+        "category": "Dining"
+    },
+    {
+        "id": 47,
+        "amount": 24.0,
+        "type": "withdrawal",
+        "category": "Coffee"
+    },
+    {
+        "id": 48,
+        "amount": 40.46,
+        "type": "withdrawal",
+        "category": "Grocery"
+    },
+    {
+        "id": 49,
+        "amount": 42.15,
+        "type": "withdrawal",
+        "category": "Dining"
+    },
+    {
+        "id": 50,
+        "amount": 59.69,
+        "type": "withdrawal",
+        "category": "Dining"
+    }
+]
