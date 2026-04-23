@@ -1,29 +1,27 @@
 from character import Character
 from warrior import Warrior
+from mage import Mage
 
-# Created a hero character with taking damage
-hero = Character("Arthur", 100)
-print(hero)
+# Create Villain
+goblin = Character("Goblin", 100)
+print(f"A wild {goblin.name} appears with {goblin.health} HP!")
 
-hero.take_damage(30)
-print(hero)
+# Creates Heros
+warrior = Warrior("Arthur", 100, 15)
+wizard = Mage("Gandalf", 80, 20)
 
-hero.take_damage(150)
-print(hero)
+# Polymorphism in action. Both use same method name
+print("\n***** Battle Starts *****")
+warrior.attack(goblin)
+wizard.attack(goblin)
 
-# Default character villain to test
-villain = Character("Goblin", 50)
+# Check the aftermath
+print("\n***** Battle Results *****")
+print(goblin)
+print(f"Arthur's Stamina: {warrior.stamina}")
+print(f"Gandalf's Mana: {wizard.mana}")
 
-# Warrior
-warrior_hero = Warrior("Arthur", 100, 15)
-
-print(villain)
-print(warrior_hero)
-
-# Warrior attacks villain
-warrior_hero.attack(villain)
-
-print(villain)
-
-# Test attack again with less stamina
-warrior_hero.attack(villain)
+# Test edge cases (Running out of resources)
+print("\n***** Second Attack *****")
+warrior.attack(goblin)
+wizard.attack(goblin)
