@@ -8,6 +8,7 @@ A terminal-based RPG combat engine built in Python to practice advanced Object-O
 *   **Inheritance:** Leveraged a master `Character` base class to pass down core properties to specialized `Warrior` and `Mage` subclasses without duplicating code.
 *   **Polymorphism:** Engineered a unified `attack()` method across different subclasses. The system automatically executes distinct, class-specific attack logic without hardcoding specific checks.
 *   **Interactive State Management:** Attack behaviors realistically consume class-specific resources (stamina or mana) and modify the health state of targeted opponent objects.
+*   **Interactive Turn-Based Loop:** Integrated a fully automated battle sequence in main.py that simulates dynamic combat rounds, tracks a "turn" counter, and manages automated resource regeneration.
 
 ## Project Structure
 
