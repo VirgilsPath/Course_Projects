@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1001,
+        "crime": "ROBBERY",
+        "location": "PARKING LOT",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1002,
+        "crime": "ASSAULT",
+        "location": "SIDEWALK",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1003,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1004,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1005,
+        "crime": "ROBBERY",
+        "location": "PARKING LOT",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1006,
+        "crime": "ASSAULT",
+        "location": "APARTMENT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1007,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "APARTMENT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1008,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1009,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1010,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "PARKING LOT",
+        "district": 3,
+        "arrest": true
+    },
+    {
+        "id": 1011,
+        "crime": "BATTERY",
+        "location": "SIDEWALK",
+        "district": 3,
+        "arrest": false
+    },
+    {
+        "id": 1012,
+        "crime": "THEFT",
+        "location": "SIDEWALK",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1013,
+        "crime": "ROBBERY",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1014,
+        "crime": "ROBBERY",
+        "location": "SIDEWALK",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1015,
+        "crime": "ROBBERY",
+        "location": "STREET",
+        "district": 3,
+        "arrest": false
+    },
+    {
+        "id": 1016,
+        "crime": "ASSAULT",
+        "location": "STREET",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1017,
+        "crime": "ASSAULT",
+        "location": "SIDEWALK",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1018,
+        "crime": "ROBBERY",
+        "location": "STREET",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1019,
+        "crime": "ROBBERY",
+        "location": "APARTMENT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1020,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1021,
+        "crime": "ASSAULT",
+        "location": "STREET",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1022,
+        "crime": "ROBBERY",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1023,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "SIDEWALK",
+        "district": 3,
+        "arrest": false
+    },
+    {
+        "id": 1024,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1025,
+        "crime": "THEFT",
+        "location": "SIDEWALK",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1026,
+        "crime": "ASSAULT",
+        "location": "STREET",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1027,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 3,
+        "arrest": true
+    },
+    {
+        "id": 1028,
+        "crime": "THEFT",
+        "location": "APARTMENT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1029,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1030,
+        "crime": "ASSAULT",
+        "location": "SIDEWALK",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1031,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "APARTMENT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1032,
+        "crime": "BATTERY",
+        "location": "APARTMENT",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1033,
+        "crime": "ASSAULT",
+        "location": "SIDEWALK",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1034,
+        "crime": "BATTERY",
+        "location": "SIDEWALK",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1035,
+        "crime": "ASSAULT",
+        "location": "PARKING LOT",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1036,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1037,
+        "crime": "ASSAULT",
+        "location": "PARKING LOT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1038,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "APARTMENT",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1039,
+        "crime": "ROBBERY",
+        "location": "APARTMENT",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1040,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1041,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1042,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1043,
+        "crime": "ASSAULT",
+        "location": "PARKING LOT",
+        "district": 3,
+        "arrest": false
+    },
+    {
+        "id": 1044,
+        "crime": "ASSAULT",
+        "location": "SIDEWALK",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1045,
+        "crime": "THEFT",
+        "location": "SIDEWALK",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1046,
+        "crime": "ROBBERY",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1047,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1048,
+        "crime": "ROBBERY",
+        "location": "SIDEWALK",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1049,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1050,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1051,
+        "crime": "THEFT",
+        "location": "STREET",
+        "district": 3,
+        "arrest": false
+    },
+    {
+        "id": 1052,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1053,
+        "crime": "ROBBERY",
+        "location": "APARTMENT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1054,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "STREET",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1055,
+        "crime": "ASSAULT",
+        "location": "APARTMENT",
+        "district": 3,
+        "arrest": true
+    },
+    {
+        "id": 1056,
+        "crime": "ASSAULT",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1057,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1058,
+        "crime": "ASSAULT",
+        "location": "APARTMENT",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1059,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "APARTMENT",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1060,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1061,
+        "crime": "ROBBERY",
+        "location": "SIDEWALK",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1062,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "STREET",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1063,
+        "crime": "ROBBERY",
+        "location": "STREET",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1064,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1065,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "STREET",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1066,
+        "crime": "ASSAULT",
+        "location": "SIDEWALK",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1067,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 1,
+        "arrest": false
+    },
+    {
+        "id": 1068,
+        "crime": "ROBBERY",
+        "location": "SIDEWALK",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1069,
+        "crime": "ROBBERY",
+        "location": "SIDEWALK",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1070,
+        "crime": "ASSAULT",
+        "location": "PARKING LOT",
+        "district": 1,
+        "arrest": true
+    },
+    {
+        "id": 1071,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1072,
+        "crime": "ASSAULT",
+        "location": "STREET",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1073,
+        "crime": "ROBBERY",
+        "location": "APARTMENT",
+        "district": 3,
+        "arrest": true
+    },
+    {
+        "id": 1074,
+        "crime": "BATTERY",
+        "location": "SIDEWALK",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1075,
+        "crime": "THEFT",
+        "location": "SIDEWALK",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1076,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 2,
+        "arrest": true
+    },
+    {
+        "id": 1077,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1078,
+        "crime": "ASSAULT",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1079,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1080,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "APARTMENT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1081,
+        "crime": "ASSAULT",
+        "location": "APARTMENT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1082,
+        "crime": "ASSAULT",
+        "location": "PARKING LOT",
+        "district": 4,
+        "arrest": true
+    },
+    {
+        "id": 1083,
+        "crime": "BATTERY",
+        "location": "PARKING LOT",
+        "district": 3,
+        "arrest": true
+    },
+    {
+        "id": 1084,
+        "crime": "THEFT",
+        "location": "STREET",
+        "district": 3,
+        "arrest": false
+    },
+    {
+        "id": 1085,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1086,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1087,
+        "crime": "ROBBERY",
+        "location": "SIDEWALK",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1088,
+        "crime": "THEFT",
+        "location": "STREET",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1089,
+        "crime": "BATTERY",
+        "location": "STREET",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1090,
+        "crime": "THEFT",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1091,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "APARTMENT",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1092,
+        "crime": "ROBBERY",
+        "location": "SIDEWALK",
+        "district": 3,
+        "arrest": true
+    },
+    {
+        "id": 1093,
+        "crime": "ASSAULT",
+        "location": "SIDEWALK",
+        "district": 3,
+        "arrest": false
+    },
+    {
+        "id": 1094,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "PARKING LOT",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1095,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "APARTMENT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1096,
+        "crime": "ROBBERY",
+        "location": "STREET",
+        "district": 2,
+        "arrest": false
+    },
+    {
+        "id": 1097,
+        "crime": "THEFT",
+        "location": "APARTMENT",
+        "district": 4,
+        "arrest": false
+    },
+    {
+        "id": 1098,
+        "crime": "CRIMINAL DAMAGE",
+        "location": "SIDEWALK",
+        "district": 5,
+        "arrest": false
+    },
+    {
+        "id": 1099,
+        "crime": "ROBBERY",
+        "location": "APARTMENT",
+        "district": 5,
+        "arrest": true
+    },
+    {
+        "id": 1100,
+        "crime": "THEFT",
+        "location": "SIDEWALK",
+        "district": 2,
+        "arrest": true
+    }
+]
