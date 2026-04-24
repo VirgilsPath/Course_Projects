@@ -19,8 +19,12 @@ This repository organizes my projects by programming paradigm and conceptual foc
 *   **[High Order Function](./FP/High%20Order%20Function)**: Utilizing data manipulation tools on large CSV files (e.g., `1kSalesRec.csv`).
 *   **[Recursion](./FP/Recursion)**: Harnessing tree structures and self-calling logic to power a deep-dive transaction analyzer.
 
+### Data Analytics (`/Data Analytics`)
+*   **[Chi Crime Mock Up](./Data%20Analytics/Chi%20Crime%20Mock%20Up)**: An in-depth data analysis sandbox that builds file loading, custom list comprehension filtering, frequency mapping, and targeted metric calculations from scratch without relying on external libraries like Pandas.
+
 ---
 
 ## Tech Stack & Skills Highlighted
 *   **Language:** Python 3
-*   **Paradigms:** Object-Oriented Programming (OOP), Functional Programming (FP)
+*   **Paradigms:** Object-Oriented Programming (OOP), Functional Programming (FP), Procedural Programming
+*   **Key Concepts:** Data structures, file parsing (CSV, JSON), algorithm design, and statistical data simulation
