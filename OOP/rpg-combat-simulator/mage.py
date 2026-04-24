@@ -37,3 +37,7 @@ class Mage(Character):
                 super().use_item(item)
         else:
             print("Item not found in inventory!")
+    
+    def rest(self):
+        self._mana += 25
+        print(f"{self.name} channels energy to restore his mana!")

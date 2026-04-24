@@ -11,6 +11,7 @@ A terminal-based RPG combat engine built in Python to practice advanced Object-O
 *   **Interactive Turn-Based Loop:** Integrated a fully automated battle sequence in main.py that simulates dynamic combat rounds, tracks a "turn" counter, and manages automated resource regeneration.
 *   **Automated Decision-Making (AI):** Programmed a basic behavioral tree in the combat loop that forces characters to evaluate their health percentage and intelligently choose between self-preservation (healing) and attacking.
 *   **Object-Oriented Inventory Grid:** Engineered an inventory array in the master class that allows independent tracking and consumption of strings as active game items.
+*   **Custom Battle Manager:** Abstracted the combat loop into a standalone execution class, making game triggers highly modular and infinitely repeatable.
 
 ## Project Structure
 

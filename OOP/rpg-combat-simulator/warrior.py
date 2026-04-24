@@ -22,8 +22,8 @@ class Warrior(Character):
     def attack(self, target):
         if self._stamina >= 10:
             self._stamina -= 10
-            target.take_damage(20)
-            print(f"Warrior attacks {target.name} for 20 damage!")
+            target.take_damage(25)
+            print(f"Warrior attacks {target.name} for 25 damage!")
         else:
             print("Not enough stamina!")
     
@@ -37,3 +37,7 @@ class Warrior(Character):
                 super().use_item(item)
         else:
             print("Item not found in inventory!")
+    
+    def rest(self):
+        self._stamina += 25
+        print(f"{self.name} takes a turn to rest and catch his breath!")
