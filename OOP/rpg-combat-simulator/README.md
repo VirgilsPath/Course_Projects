@@ -9,6 +9,8 @@ A terminal-based RPG combat engine built in Python to practice advanced Object-O
 *   **Polymorphism:** Engineered a unified `attack()` method across different subclasses. The system automatically executes distinct, class-specific attack logic without hardcoding specific checks.
 *   **Interactive State Management:** Attack behaviors realistically consume class-specific resources (stamina or mana) and modify the health state of targeted opponent objects.
 *   **Interactive Turn-Based Loop:** Integrated a fully automated battle sequence in main.py that simulates dynamic combat rounds, tracks a "turn" counter, and manages automated resource regeneration.
+*   **Automated Decision-Making (AI):** Programmed a basic behavioral tree in the combat loop that forces characters to evaluate their health percentage and intelligently choose between self-preservation (healing) and attacking.
+*   **Object-Oriented Inventory Grid:** Engineered an inventory array in the master class that allows independent tracking and consumption of strings as active game items.
 
 ## Project Structure
 
