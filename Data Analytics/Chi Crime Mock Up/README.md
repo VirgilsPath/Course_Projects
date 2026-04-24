@@ -22,6 +22,11 @@ A Python data analysis project focused on simulating and analyzing structured JS
 - **`tester.py`**
   - The driver script that imports the toolbox, handles data execution, and prints formatted output to the console.
 
+- **`sql_practice.py`**
+  - Connects to an in-memory SQLite database.
+  - Loads physical JSON data directly into a SQL table.
+  - Demonstrates core query writing, including conditional filtering (`WHERE`), counting (`COUNT`), and aggregation sorting (`GROUP BY` / `ORDER BY`).
+
 - **`data.json`**
   - The simulated dataset created by your generator script.
 
