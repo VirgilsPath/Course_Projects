@@ -1,39 +1,41 @@
-Functional Transaction Analyzer
+# Functional Transaction Analyzer
 
-A Python-based financial data processor built using Functional Programming (FP) principles. This project demonstrates how to handle data transformations and calculations without using traditional imperative loops (for or while), focusing instead on recursion and pure functions.
+A Python-based financial data processor built using **Functional Programming (FP)** principles. This project demonstrates how to handle complex data transformations and calculations without using traditional imperative loops (`for` or `while`), focusing instead on **Recursion** and **Stateless Logic**.
 
-Key Features
+## Project Overview
+This project shifts away from standard iterative patterns to master high-level computer science concepts:
+1. **Recursive Processing:** Engineered custom recursive algorithms for summation, counting, and list-building to replace traditional looping.
+2. **Data Transformation:** Leverages higher-order functions and **Lambda** expressions to extract specific financial subsets.
+3. **Stateless Logic:** Every function is "pure," ensuring that the original dataset remains immutable and the program is free of "side effects."
+4. **JSON Integration:** Maps persistent external data into a functional pipeline for real-world simulation.
 
-    Recursive Processing: Implemented custom recursive algorithms for summation, counting, and list-building.
+---
 
-    Data Transformation: Uses higher-order functions (filter, lambda) to extract specific data subsets.
+## File Structure
 
-    JSON Integration: Handles persistent data storage by reading from and writing to JSON files.
+- **`transaction_analyzer_maker.py`**
+  - A utility script used to generate a mock `transactions.json` dataset containing 50 unique financial entries.
+  
+- **`analyzer.py`**
+  - The core logic engine containing recursive functions and declarative analysis pipelines.
 
-    Stateless Logic: Every function is "pure," meaning it returns a new value rather than modifying the existing state or global variables.
+- **`transactions.json`**
+  - The financial database containing transaction IDs, categories, and amounts.
 
-Concepts Applied
+---
 
-    Immutability: Treating data as read-only to prevent bugs caused by "side effects."
+## Functional Programming Highlights
 
-    Recursion: Using base cases and recursive steps to solve problems through divide-and-conquer.
+### **The Power of Recursion**
+Instead of using a `for` loop to add up totals, this project uses **Divide-and-Conquer** logic. By utilizing **List Slicing** (`data[1:]`), the functions move through the dataset by calling themselves until they hit a **Base Case**.
 
-    Higher-Order Functions: Leveraging built-in Python tools like filter() to create declarative pipelines.
+### **Immutability & Pure Functions**
+In this project, data is treated as read-only. Functions like `get_ids_by_category()` do not modify the original list; instead, they build and return a brand-new list of results. This approach is highly valued in **Distributed Computing** and **Data Engineering** because it prevents bugs caused by shared state.
 
-    List Slicing: Using data[1:] to manage data flow through the recursive stack.
+---
 
-Project Structure
-
-    transaction_analyzer_maker.py: A utility script to generate the initial transactions.json dataset.
-
-    analyzer.py: The core logic file containing the recursive functions and analysis pipelines.
-
-    transactions.json: The mock financial dataset containing 50 unique transactions.
-
-Example Functions
-
-    recursive_sum(): Calculates total balance.
-    
-    sum_by_category(): Demonstrates conditional branching within recursion.
-
-    get_ids_by_category(): A recursive "map + filter" implementation that builds a new list of IDs.
+## Skills Mastered
+- **Recursive Thinking:** Solving problems by breaking them into smaller, self-referential sub-problems.
+- **Higher-Order Functions:** Implementing `filter()` and `map()` to create declarative data pipelines.
+- **Immutability:** Managing data flows without modifying global or local variables (No "Side Effects").
+- **List Processing:** Utilizing advanced slicing and head/tail recursion patterns to traverse data structures.

@@ -1,43 +1,38 @@
-Virtual Pet CLI
+# Virtual Pet: Game Loop & State Management
 
-A lightweight, Object-Oriented Command Line Interface (CLI) game built in Python. This project demonstrates core OOP principles, state management, and user-input handling.
+A classic interactive pet simulation that demonstrates core **Object-Oriented Programming (OOP)** concepts such as **Encapsulation**, **Internal Logic Clamping**, and the implementation of a continuous **Game Loop**.
 
-Features
+## Project Overview
+This project simulates the lifecycle of a virtual pet, requiring the user to balance three critical internal stats: Hunger, Energy, and Happiness. 
+1. **Interactive Loop:** Uses a `while True` loop to process real-time user decisions and advance the game state.
+2. **Stat Clamping:** Implements private helper methods to ensure pet attributes stay within a logical range (0-10), preventing data corruption.
+3. **Condition-Based Outcomes:** The game dynamically reacts to the pet's state, triggering "Game Over" scenarios if the pet becomes too hungry, sad, or exhausted.
 
-    Dynamic Stat Tracking: Manage your pet's Hunger, Energy, and Happiness.
-    
-    OOP Design: Built using a modular Pet class with encapsulated logic.
-    
-    State Integrity: Implements "clamping" logic to ensure pet stats remain within logical boundaries (0-10).
-    
-    Game Loop: A persistent interactive loop that simulates the passage of time and aging.
+---
 
+## File Structure
 
-Concepts Demonstrated
+- **`virtual_pet.py`**
+  - Contains the `Pet` class which encapsulates the pet's attributes and behaviors.
+  - Implements the main interactive console interface for player input and status reporting.
 
-    Encapsulation: Keeping pet attributes and behaviors (methods) within a single class.
-    
-    Helper Methods: Using internal methods (_clamp_stats) to maintain clean, DRY (Don't Repeat Yourself) code.
-    
-    Conditional Logic: Managing complex game states and "Game Over" conditions based on multiple variables.
+---
 
-How to Run
+## Technical Implementations
 
-    Ensure you have Python installed (3.6 or higher).
-    
-    Clone this repository:
-    git clone https://github.com/VirgilsPath/Course_Projects/tree/main/OOP/Virtual%20Pet
+### **Attribute Clamping (Data Integrity)**
+I implemented a private method `_clamp_stats()` using Python’s `min()` and `max()` functions. This ensures that even if a pet "plays" multiple times, their happiness never exceeds 10, and their hunger never drops below 0, maintaining a consistent game balance.
 
-    Run the script:
-    python3 virtual_pet.py
+### **Temporal State Decay**
+Every action taken by the player triggers a `pass_time()` method. This simulates a "living" entity where time naturally increases hunger and decreases energy/happiness, forcing the player to make strategic choices to keep the pet alive.
 
-How to Play
+### **Robust Input Handling**
+The project utilizes `try-except` blocks to handle non-integer user inputs, ensuring the game loop doesn't crash if a user enters an invalid character.
 
-    Feed: Lowers hunger but increases energy.
-    
-    Play: Increases happiness but costs energy.
-    
-    Sleep: Fully restores energy.
-    
-    Watch Out: Every turn, time passes! If hunger hits 10 or happiness hits 0, the game is over.
+---
 
+## Skills Mastered
+- **Class State Management:** Tracking multiple interacting variables within a single object instance.
+- **Helper Methods:** Using "private" naming conventions (e.g., `_method_name`) for internal class logic.
+- **User Interface Design:** Building a clean, text-based console interface with dynamic status messaging.
+- **Game Logic Design:** Implementing win/loss conditions based on attribute thresholds.
