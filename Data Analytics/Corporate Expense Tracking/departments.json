@@ -1,0 +1,27 @@
+[
+    {
+        "dept_id": 1,
+        "dept_name": "Sales",
+        "budget": 93128
+    },
+    {
+        "dept_id": 2,
+        "dept_name": "Engineering",
+        "budget": 57644
+    },
+    {
+        "dept_id": 3,
+        "dept_name": "Marketing",
+        "budget": 72671
+    },
+    {
+        "dept_id": 4,
+        "dept_name": "HR",
+        "budget": 61846
+    },
+    {
+        "dept_id": 5,
+        "dept_name": "Finance",
+        "budget": 71873
+    }
+]

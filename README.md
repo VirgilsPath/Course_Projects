@@ -21,10 +21,11 @@ This repository organizes my projects by programming paradigm and conceptual foc
 
 ### Data Analytics (`/Data Analytics`)
 *   **[Chi Crime Mock Up](./Data%20Analytics/Chi%20Crime%20Mock%20Up)**: An in-depth data analysis sandbox that builds file loading, custom list comprehension filtering, frequency mapping, and targeted metric calculations from scratch without relying on external libraries like Pandas.
+*   **[Corporate Expense Tracker](./Data%20Analytics/Corporate%20Expense%20Tracking/)**: A relational database project using SQL Joins, multi-table schema design, and Matplotlib to generate automated financial risk reports.
 
 ---
 
 ## Tech Stack & Skills Highlighted
 *   **Language:** Python 3
 *   **Paradigms:** Object-Oriented Programming (OOP), Functional Programming (FP), Procedural Programming
-*   **Key Concepts:** Data structures, file parsing (CSV, JSON), algorithm design, and statistical data simulation
+*   **Key Concepts:** Relational Database Design (SQL), Data Visualization (Matplotlib), Data Structures, File Parsing (CSV, JSON), Algorithm Design, and Statistical Data Simulation
