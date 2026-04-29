@@ -8,6 +8,15 @@ Curated coursework and practical implementations of Python fundamentals, includi
 
 This repository organizes my projects by programming paradigm and conceptual focus to display my grasp of software architecture.
 
+### Code Assessments & Technical Screenings (`/Assessments`)
+*   **[Cloud Resource Optimization](./Code%20Practice/IBM%20Practice/)**: Mimics IBM-style screenings using relational dictionary joins, status filtering, and multi-level lambda sorting.
+*   **[Logistics & Operations Analytics](./Code%20Practice/Fleet%20Practice/)**: A comprehensive suite of assessments covering **Fleet Management, Supply Chain optimization, and Warehouse inventory tracking**. Focuses on complex aggregation (Averages/Totals), multi-dataset joins, and chronological date-filtering.
+
+### Data Analytics (`/Data Analytics`)
+*   **[Financial Data Sanitization](./Data%20Analytics/Dirty%20Data/)**: A robust ETL pipeline designed to handle "dirty" bank exports through currency normalization, defensive error catching, and data imputation.
+*   **[Chi Crime Mock Up](./Data%20Analytics/Chi%20Crime%20Mock%20Up)**: An in-depth data analysis sandbox that builds file loading, custom list comprehension filtering, frequency mapping, and targeted metric calculations from scratch without relying on external libraries like Pandas.
+*   **[Corporate Expense Tracker](./Data%20Analytics/Corporate%20Expense%20Tracker/)**: A relational database project using SQL Joins, multi-table schema design, and Matplotlib to generate automated financial risk reports.
+
 ### Object-Oriented Programming (`/OOP`)
 *   **[Mexican Taqueria](./OOP/Mexican%20Taqueria)**: A project focusing on class-based order tracking and state manipulation.
 *   **[Vending Machine](./OOP/Vending%20Machine)**: Simulates physical machinery interactions using encapsulated cash flows and inventory tracking.
@@ -19,13 +28,10 @@ This repository organizes my projects by programming paradigm and conceptual foc
 *   **[High Order Function](./FP/High%20Order%20Function)**: Utilizing data manipulation tools on large CSV files (e.g., `1kSalesRec.csv`).
 *   **[Transaction Analyzer](./FP/Recursion/Transaction%20Analyzer/)**: Harnessing tree structures and self-calling logic to power a deep-dive transaction analyzer.
 
-### Data Analytics (`/Data Analytics`)
-*   **[Chi Crime Mock Up](./Data%20Analytics/Chi%20Crime%20Mock%20Up)**: An in-depth data analysis sandbox that builds file loading, custom list comprehension filtering, frequency mapping, and targeted metric calculations from scratch without relying on external libraries like Pandas.
-*   **[Corporate Expense Tracker](./Data%20Analytics/Corporate%20Expense%20Tracker/)**: A relational database project using SQL Joins, multi-table schema design, and Matplotlib to generate automated financial risk reports.
-
 ---
 
 ## Tech Stack & Skills Highlighted
 *   **Language:** Python 3
 *   **Paradigms:** Object-Oriented Programming (OOP), Functional Programming (FP), Procedural Programming
+*   **Core Assessment Skills:** Defensive Programming (Try/Except), ETL Pipelines, Relational Dictionary Joins, Multi-level Lambda Sorting, Data Normalization.
 *   **Key Concepts:** Relational Database Design (SQL), Data Visualization (Matplotlib), Data Structures, File Parsing (CSV, JSON), Algorithm Design, and Statistical Data Simulation
